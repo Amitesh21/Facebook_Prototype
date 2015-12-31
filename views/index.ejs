@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Responsive facebook like homepage, Registration and login with twitter bootstrap 3.0 - wsnippets.com</title>
+    <!--<link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/sticky-footer.css" rel="stylesheet">
+	<link href="css/custom.css" rel="stylesheet"-->
+	
+	<link type="text/css" rel="stylesheet" href="stylesheets/style1.css" />
+ 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	</head>
+
+  <body>
+  
+    <div id="wrap">
+      <div class="header">
+        <div class="container" >
+          <div class="navbar-header">
+            
+            <img style="width:150px;margin-top:13px" src="img/facebook_2015_logo.png">
+          </div>
+		  <div class="collapse navbar-collapse">
+           	<form method="POST" class="navbar-form navbar-right" id="header-form" role="form" action='SignInCheck'>				  
+				  <div class="lt-left">
+					  <div class="form-group">
+						<label for="exampleInputEmail2" >Enter Email</label><br>
+						<input type="email" name="email" class="form-control input-sm" id="exampleInputEmail2" placeholder="Email or Phone">
+					  </div>
+					  <div class="form-group">
+					  <ul style="list-style: none;height:49px" >
+						<li>
+							<label for="exampleInputPassword2">Password</label>
+						</li>
+						<li>
+							<input type="password" name="password" class="form-control input-sm" id="exampleInputPassword2" placeholder="Password">
+						</li>
+						<li>
+							<label>
+						  		<input type="checkbox"> Remember me
+							</label>
+						</li>
+					  </ul>
+					  </div>
+					  <div class="checkbox" style="margin-right:20px">
+						
+					  </div>
+				  
+					  <div class="lt-right">
+						<button type="submit" class="login-btn" onsubmit="myfunc()">Login</button>
+					  </div>
+				  </div>
+				</form>
+
+          </div>
+          </div>
+        
+      </div>
+      <br><br>
+      <div class="container" id="home">
+		<div class="row">
+			<div class="col-md-7">
+				<h3 class="slogan">
+					
+				</h3><br>
+				<img src="" class="img-responsive" />
+			</div>
+			<div class="col-md-5">
+			<form action='signup' method="post" class="form" role="form" >
+			<br>
+			<legend><a>Sign Up</a></legend>
+            <h4>It's free and always will be.</h4>
+            <div class="row">
+                <div class="col-xs-6 col-md-6">
+                    <input class="form-control input-lg" name="firstname" placeholder="First Name" type="text" autofocus />
+                </div>
+                <div class="col-xs-6 col-md-6">
+                    <input class="form-control input-lg" name="lastname" placeholder="Last Name" type="text" />
+                </div>
+            </div>
+            <input class="form-control input-lg" name="email" placeholder="Your Email" type="email" />
+            <input class="form-control input-lg" name="reenteremail" placeholder="Re-enter Email" type="email" />
+            <input class="form-control input-lg" name="password" placeholder="New Password" type="password" />
+            <label for="">
+                Birth Date</label>
+            <div class="row">
+                <input type="date" id="namebox" placeholder="dob" name="dob">
+            </div>
+            <label class="radio-inline">
+                <input type="radio" name="sex" id="inlineCheckbox1" value="male" />
+                Male
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="sex" id="inlineCheckbox2" value="female" />
+                Female
+            </label>
+            <br /><br>
+			<span class="help-block">By clicking Create my account, you agree to our Terms and that you have read our Data Use Policy, including our Cookie Use.</span>
+            <button class="btn btn-lg btn-primary btn-block signup-btn" type="submit">
+                Create my account</button>
+            </form>
+
+			</div>
+		</div>
+      </div>
+    </div>
+
+    <div id="footer">
+      <div class="container">
+        <p class="text-muted credit">Facebook @2015</p>
+        <p class="text-muted credit">English Us</p>
+      </div>
+    </div>
+
+	<script>
+  alert('Email id or password is empty');
+  </script>
+  
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>

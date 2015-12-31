@@ -1,0 +1,118 @@
+<html>
+<head>
+	 <link type="text/css" rel="stylesheet" href="stylesheets/style1.css" />
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	 <link type="text/css" rel="stylesheet" href="stylesheets/style1.css" />
+	 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	  
+	  <script type="text/javascript">
+	
+	
+</script>
+
+	  
+	  
+</head>
+<body>
+
+	<div class="back">
+	<div class="header">
+		
+		<nav class="" role="navigation">
+					<div style="text-align:center">
+                    <form class="navbar-form navbar-left" action='searchFriend'><br>
+                    <div class="" style="float:right">
+                        <div class="input-group input-group-sm" style="max-width:360px;">
+                          <input type="text" class="form-control" placeholder="Search" name="search" id="srch-term">
+                          <div class="input-group-btn">
+                            <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+                          </div>
+                        </div>
+                    </div>
+                        
+                    </form>
+                    <ul class="nav navbar-nav">
+                    <br>
+                      <li>
+                        <a href="/success"><i class="glyphicon glyphicon-home"></i> Home</a>
+                      </li>
+                      <li>
+                        <a href="/friendList" role="button" data-toggle="modal"><i class="glyphicon glyphicon-plus"></i> Friends</a>
+                      </li>
+                      <li>
+                        <a href="/logout"><span class="badge">Logout</span></a>
+                      </li>
+                    </ul>
+                    
+                  	</nav>
+             </div>
+                  	
+	</div>
+	       
+	       <div class="sidebar-boder"> 
+	       <div class="col-sm-3 col-md-2 sidebar-offcanvas" id="sidebar" role="navigation">
+           
+            <ul class="nav nav-sidebar">
+              
+              <li><a href="/aboutEdit">Edit Profile</a></li>
+              <li><a href="/about" ng-model="about1" name="about1" ng-click=>About</a></li>
+            </ul>
+            <ul class="nav nav-sidebar">
+              <li><a href="/addGroup">Create Group</a></li>
+              <li><a href="/showGroup">Show Groups</a></li>
+              <li><a href="">Manage Groups</a></li>
+              <li><a href="/pendingReq">Pending Friend Request</a></li>
+              <li><a href="/about">About</a></li>
+              <li><a href="/aboutEdit">Edit Profile</a></li>
+            </ul>
+            
+            <br>
+        </div>
+        <div class="col-md-3">
+        <div class="text-center">
+        
+          <img align="left" class="fb-image-lg" src="http://cmster.com/media/5JCU7GWpbex9swPd4NK6FE1a5q3bOYHx3NPJoxbqORgDVLeQkVkfN9V1SlYPM5aC.jpg" alt="Profile image example"/>
+          
+          
+          
+        </div>
+      </div>
+    
+    <div class="row">
+      <!-- left column -->
+      <div class="col-md-2">
+          
+        <div class="text-center">
+          <br><br><br><br><br><br><br><br>
+          <img src="http://its.fsu.edu/var/ezwebin_site/storage/images/media/images/all-common-shared-graphics/unknown-face2/997518-1-eng-US/Unknown-Face_listitem.png" class="avatar img-circle" alt="avatar">
+          <h6>Upload profile</h6>
+  	</div><ul class="nav nav-tabs">
+  <li role="presentation" ><a href="/aboutbasic"> Basic  Details </a></li>
+  <li role="presentation" ><a href="/aboutedu">Educational  Details</a></li>
+  <li role="presentation" ><a href="/aboutpro">Professional  Details </a></li>
+</ul>
+  </div>
+  </div>
+            <br><br><br><br><br><br>
+            
+            <div>
+            <p>Valid user</p>
+name: <%= name %><br>
+college: <%= college %><br>
+email: <%= email %><br>
+
+<br><br>
+<a href="/success">Back</a>
+            </div>
+           
+           
+	        </div>
+           </div>
+
+    
+</body>
+
+</html>
