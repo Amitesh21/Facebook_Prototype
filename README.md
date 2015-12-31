@@ -1,20 +1,7 @@
 
+Facebook Prototype
 
-# Login
-
-
-
-## Usage
-
-
-
-## Developing
-
-
-
-### Tools
-
-Created with [Nodeclipse](https://github.com/Nodeclipse/nodeclipse-1)
- ([Eclipse Marketplace](http://marketplace.eclipse.org/content/nodeclipse), [site](http://www.nodeclipse.org))   
-
-Nodeclipse is free open-source project that grows with your contributions.
+- Developed Facebook prototype using Node.js Rest web services and AngularJs as front end.
+- Friend Lists, News feed, Status post and Groups functionality also included.
+- Used Connection Pooling for database access and Caching which improved application performance by 10-12%.
+- Used Jmeter to check load testing.
